@@ -1,0 +1,28 @@
+PowerSupply1_registerRecordDeviceDriver.o: \
+ PowerSupply1_registerRecordDeviceDriver.cpp \
+ /opt/epics/base-7.0.8/include/compilerDependencies.h \
+ /opt/epics/base-7.0.8/include/compiler/gcc/compilerSpecific.h \
+ /opt/epics/base-7.0.8/include/epicsStdlib.h \
+ /opt/epics/base-7.0.8/include/libComAPI.h \
+ /opt/epics/base-7.0.8/include/os/Linux/osdStrtod.h \
+ /opt/epics/base-7.0.8/include/epicsTypes.h \
+ /opt/epics/base-7.0.8/include/compilerDependencies.h \
+ /opt/epics/base-7.0.8/include/errMdef.h \
+ /opt/epics/base-7.0.8/include/iocsh.h \
+ /opt/epics/base-7.0.8/include/iocshRegisterCommon.h \
+ /opt/epics/base-7.0.8/include/dbCoreAPI.h \
+ /opt/epics/base-7.0.8/include/registryCommon.h \
+ /opt/epics/base-7.0.8/include/dbStaticLib.h \
+ /opt/epics/base-7.0.8/include/dbFldTypes.h \
+ /opt/epics/base-7.0.8/include/dbBase.h \
+ /opt/epics/base-7.0.8/include/ellLib.h \
+ /opt/epics/base-7.0.8/include/dbDefs.h \
+ /opt/epics/base-7.0.8/include/recSup.h \
+ /opt/epics/base-7.0.8/include/devSup.h \
+ /opt/epics/base-7.0.8/include/link.h \
+ /opt/epics/base-7.0.8/include/cantProceed.h \
+ /opt/epics/base-7.0.8/include/dbJLink.h \
+ /opt/epics/base-7.0.8/include/dbCoreAPI.h \
+ /opt/epics/base-7.0.8/include/registryRecordType.h \
+ /opt/epics/base-7.0.8/include/recSup.h \
+ /opt/epics/base-7.0.8/include/shareLib.h
