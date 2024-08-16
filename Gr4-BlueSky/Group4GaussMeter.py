@@ -2,7 +2,7 @@ from ophyd import Device, Component, EpicsSignal, EpicsSignalRO
 
 # Gauss Meter
 # Prefix='Group4:'
-# MyGauss='GssMtr:'
+# MyGauss='GssMtr1:'
 
 class GaussMeter(Device):
     Bx = Component(EpicsSignalRO, 'MagX:get')

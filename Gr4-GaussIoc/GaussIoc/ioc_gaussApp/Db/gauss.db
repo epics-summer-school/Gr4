@@ -43,3 +43,12 @@ record (ai, "Group4:GssMtr:MagSum:get"){
     field(PREC, "4")
     field (PHAS, "4")
 }
+
+record (stringout, "Group4:GssMtr:RstBuf:set"){
+    field(DESC, "Resets the Buffer memory")
+    field(PINI, "YES")
+    field(DTYP, "stream")
+    field(OUT, "@gauss.proto resetBuffer IP1")
+    field(SCAN, "1 second")
+}
+

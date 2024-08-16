@@ -16,7 +16,7 @@ from beamlinetools.devices.PowerSupply1 import PowerSupply1
 
 SMprefix='Gr4:Ax1_'
 Prefix='Group4:'
-MyGauss='GssMtr:'
+MyGauss='GssMtr1:'
 MyPwr='PwrSup1:'
 
 
@@ -39,9 +39,12 @@ z_stage = StepperMotorPositioner(SMprefix, name='z_stage')
 
 from bluesky.plans import scan
 from bluesky.plan_stubs import mov
+#load_user_script("myPlan.py")
+
 
 # RE(mov(z_stage, -2000))
-from ophyd.sim import det 
+#rom ophyd.sim import det 
+#from user_scripts import myPlan
 #RE(scan([det],z_stage,500,-4800,10))
 
 # RE(scan([MyGaussMeter],z_stage,-4800,500,10))
